@@ -2,7 +2,7 @@ from seatable_api import SeaTableAPI
 from seatable_api.constants import UPDATE_DTABLE, NEW_NOTIFICATION
 from seatable_api.utils import convert_row
 
-server_url = 'http://127.0.0.1:8000'
+server_url = 'https://cloud.seatable.cn'
 api_token = '678cdf2deba6e2abf5dc354938b717c45239629b'
 
 

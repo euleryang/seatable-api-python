@@ -6,8 +6,7 @@ from datetime import datetime
 
 from seatable_api import SeaTableAPI
 
-
-server_url = 'http://127.0.0.1:8000'
+server_url = 'https://cloud.seatable.cn'
 api_token = 'd67d4e0eeee24b55ff7b60595faed7e2df36e1d1'
 
 

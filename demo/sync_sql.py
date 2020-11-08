@@ -1,8 +1,8 @@
 import pymysql
 from seatable_api import SeaTableAPI
 
-server_url = 'http://127.0.0.1:8000'
-api_token = '48b6a41a0c2e1ee4bf294ed42445914025a0a60c'
+server_url = 'https://cloud.seatable.cn'
+api_token = '2fdba13d439747357a9e1f4baa84d6f886f9c3fa'
 
 
 def sync_mysql():

@@ -5,9 +5,9 @@ import requests
 from seatable_api import Base
 
 
-## replace server_url and api_token with your server address and api token 
-server_url = 'https://cloud.seatable.io'
-api_token = '62374a03996cc365a977d1310bf8e099189db312'
+## replace server_url and api_token with your server address and api token
+server_url = 'https://cloud.seatable.cn'
+api_token = '2fdba13d439747357a9e1f4baa84d6f886f9c3fa'
 
 base = Base(api_token, server_url)
 
@@ -23,7 +23,7 @@ files = []
 
 for table in tables:
     columns = table.get('columns', [])
-    # if you want to only download image just change following line to 
+    # if you want to only download image just change following line to
     # file_cols = [col for col in columns if col.get('type') in ('image',)]
     file_cols = [col for col in columns if col.get('type') in ('image', 'file')]
 
