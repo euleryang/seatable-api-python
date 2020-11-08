@@ -1,29 +1,30 @@
 from seatable_api import SeaTableAPI
 
 server_url = 'https://cloud.seatable.cn'
-api_token = '2fdba13d439747357a9e1f4baa84d6f886f9c3fa'
+api_token = 'd00ad238bb6050b32aa8b2fa95e5f7b3ca79b1e6'
 
 
 def filter_rows():
     seatable = SeaTableAPI(api_token, server_url)
     seatable.auth()
 
-    table_name = 'Table1'
+    table_name = '在职员工'
 
     filters = [
         {
-            "column_name": "Name",
+            "column_name": "姓名",
             "filter_predicate": "contains",
-            "filter_term": "a",
+            "filter_term": "王",
         },
         {
-            "column_name": "Name",
+            "column_name": "姓名",
             "filter_predicate": "contains",
-            "filter_term": "b",
+            "filter_term": "杨",
         }
     ]
 
     filtered_rows = seatable.filter_rows(table_name, filters=filters, filter_conjunction='Or')
+
 
 
 def row_link():

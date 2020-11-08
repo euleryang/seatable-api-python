@@ -3,7 +3,7 @@ from seatable_api.constants import UPDATE_DTABLE, NEW_NOTIFICATION
 from seatable_api.utils import convert_row
 
 server_url = 'https://cloud.seatable.cn'
-api_token = '678cdf2deba6e2abf5dc354938b717c45239629b'
+api_token = 'd00ad238bb6050b32aa8b2fa95e5f7b3ca79b1e6'
 
 
 def on_update_seatable(data, index, *args):

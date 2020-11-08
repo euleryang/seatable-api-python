@@ -7,7 +7,7 @@ from datetime import datetime
 from seatable_api import SeaTableAPI
 
 server_url = 'https://cloud.seatable.cn'
-api_token = 'd67d4e0eeee24b55ff7b60595faed7e2df36e1d1'
+api_token = 'd00ad238bb6050b32aa8b2fa95e5f7b3ca79b1e6'
 
 
 def upload_file():
